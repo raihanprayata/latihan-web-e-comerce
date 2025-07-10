@@ -75,6 +75,7 @@ const Card = ({ kategori, search }) => {
               <h6 className="title-card-produk">{data.title}</h6>
               <p className="kategori-card-produk">{data.category}</p>
               <p className="harga-card-produk">$ {data.price}</p>
+              <Button>Keranjang</Button>
             </div>
           </div>
         </Col>
